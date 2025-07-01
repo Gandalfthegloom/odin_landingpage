@@ -156,6 +156,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 96px 64px;
 }
 
 .quote-text {
@@ -175,4 +176,46 @@ body {
     flex: 1 1 0;
     max-width: 750px;
     width: 100%;
+}
+
+/* call-to-action code*/
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 96px 64px;
+}
+.cta-box {
+    display: flex;
+    background-color: #3882f6;
+    max-width: 900px;
+    width: 100%;
+    padding: 32px 128px;
+    border-radius: 10px;
+    gap: 64px;
+    justify-content: space-around;
+    padding: 48px 96px;
+}
+
+.cta-button {
+    align-self: center;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    background-color: #3882f6;
+    height: 32px;
+    width: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* footer code */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 48px 0;
 }
